@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    --william: #3c6f72;
+    --granny-smith: #809d9b;
+    --submarine: #b5c9c9;
+    --concrete: #f2f2f2;
+    --geyser: #dee8e8;
+    --rubik: 'Rubik', sans-serif;
+    --quattrocento-sans: 'Quattrocento Sans', sans-serif;
+    /* Scroll-Bar styles */
+    ::-webkit-scrollbar {
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background: var(--geyser);
+    }
+    ::-webkit-scrollbar-thumb {
+        background: var(--granny-smith);
+        border-radius: 6px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--submarine);
+    }
+}

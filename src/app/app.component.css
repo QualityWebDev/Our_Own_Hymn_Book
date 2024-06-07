@@ -1,0 +1,113 @@
+body{
+    background-color: var(--william);
+    overflow-x: hidden;
+    height: 100vh;
+}
+::-webkit-scrollbar {
+    width: 30px;
+}
+header{
+    background-color: var(--geyser);
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    justify-content: space-between;
+    box-shadow: inset -1px -1px 10px var(--william);
+    .logo{
+        height: 60px;
+        width: fit-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px 0px 0px 5px;
+        .logo-img{
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-content: center;
+        }
+        .logo-txt{
+            width: fit-content;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            margin: 0px 0px 0px 0px;
+            .txt{
+                font-size: 30px;
+                width: fit-content;
+                color: var(--william);
+                font-family: var(--rubik);
+                font-weight: 300;
+            }
+        }
+    }
+    .search-bar-holder{
+        padding: 10px;
+        .search-bar{
+            width: 150px;
+            height: 30px;
+            border-radius: 50px;
+            padding: 10px;
+            background: var(--submarine);
+            border: none;
+            margin: 0px 10px 0px 0px;
+        }
+    }
+}
+.collapse-btn{
+    width: 30px;
+    height: 30px;
+    background: var(--granny-smith);
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 17px 0px 0px 17px;
+    position: absolute;
+    .collapse-btn-img{
+        width: 20px;
+        height: 20px;
+    }
+    &:hover{
+        background: var(--submarine);
+    }
+}
+.menu{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: fit-content;
+    background-color: var(--geyser);
+    border-radius: 10px;
+    margin: 10px 0px 0px 10px;
+    .menu-item{
+        font-size: 16px;
+        font-family: var(--quattrocento-sans);
+        width: 100px;
+        height: 25px;
+        background: var(--submarine);
+        border: none;
+        border-radius: 5px;
+        display: flex;
+        align-content: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+        color: var(--william);
+    }
+    .top-item{
+        margin: 45px 0px 5px 0px;
+    }
+    .center-item{
+        margin: 5px 0px 5px 0px;
+    }
+    .bottom-item{
+        margin: 5px 0px 10px 0px;
+    }
+}

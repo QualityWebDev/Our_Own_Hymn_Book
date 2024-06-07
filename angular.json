@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "truth-frontend": {
+    "our-own-hymn-book": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/truth-frontend",
+            "outputPath": "dist/our-own-hymn-book",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -57,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "truth-frontend:build:production"
+              "buildTarget": "our-own-hymn-book:build:production"
             },
             "development": {
-              "buildTarget": "truth-frontend:build:development"
+              "buildTarget": "our-own-hymn-book:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "truth-frontend:build"
+            "buildTarget": "our-own-hymn-book:build"
           }
         },
         "test": {
