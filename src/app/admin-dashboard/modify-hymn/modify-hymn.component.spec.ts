@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ModifyHymnsComponent } from './modify-hymns.component';
+import { ModifyHymnComponent } from './modify-hymn.component';
 
-describe('ModifyHymnsComponent', () => {
-  let component: ModifyHymnsComponent;
-  let fixture: ComponentFixture<ModifyHymnsComponent>;
+describe('ModifyHymnComponent', () => {
+  let component: ModifyHymnComponent;
+  let fixture: ComponentFixture<ModifyHymnComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ModifyHymnsComponent]
+      imports: [ModifyHymnComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(ModifyHymnsComponent);
+    fixture = TestBed.createComponent(ModifyHymnComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
