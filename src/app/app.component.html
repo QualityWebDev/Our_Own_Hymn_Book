@@ -17,11 +17,14 @@
         <input type="search" class="search-bar" placeholder="Search...">
       </div>
     </header>
-    <button class="collapse-btn" id="icon" (click)="handleMenuCollapseClick('menu', 'icon')"><img src="assets/images/collapse-left.svg" alt="collapse" class="collapse-btn-img"></button>
-    <nav class="menu" id="menu">
-      <button class="menu-item top-item" routerLink="home">Home</button>
-      <button class="menu-item center-item" routerLink="about">About</button>
-      <button class="menu-item bottom-item" routerLink="contact">Contact</button>
-    </nav>
+    <main>
+      <button class="collapse-btn" id="icon" (click)="handleMenuCollapseClick('menu', 'icon')"><img src="assets/images/collapse-left.svg" alt="collapse" class="collapse-btn-img"></button>
+      <nav class="menu" id="menu">
+        <button class="menu-item top-item" routerLink="home">Home</button>
+        <button class="menu-item center-item" routerLink="about">About</button>
+        <button class="menu-item bottom-item" routerLink="contact">Contact</button>
+      </nav>
+      <router-outlet></router-outlet>
+    </main>
   </body>
 </html>
